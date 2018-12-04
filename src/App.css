@@ -22,6 +22,31 @@
   color: #61dafb;
 }
 
+ul{
+  list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.song{
+  border: 1px solid black;
+}
+
+.position{
+  font-size: 24pt;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+.text{
+  font-size:20pt;
+  padding-left: 20px;
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
